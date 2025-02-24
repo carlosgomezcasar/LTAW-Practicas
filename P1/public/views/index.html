@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>La tienda número uno de guitarras y bajos de España</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="/css/tienda.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>TU TIENDA DE GUIATARRAS</h1>
+    <div class="productos">
+        <div class="producto">
+            <img src="/img/clasicas.jpg" alt="Guitarras clásicas">
+            <h2> Guitarras Clásicas y Españolas</h2>
+            <a href="/views/clasicas.html">Ver más</a>
+
+        </div>
+        <div class="producto">
+            <img src="/img/electricas.png" alt="Guitarras eléctricas">
+            <h2> Guitarras Eléctricas</h2>
+            <a href="/views/electricas.html">Ver más</a>
+        </div>
+        <div class="producto">
+            <img src="/img/acusticas.png" alt="Guitarras acústicas">
+            <h2> Guitarras Acústicas</h2>
+            <a href="/views/acusticas.html">Ver más</a>
+        </div>
+        <div class="producto">
+            <img src="/img/bajos.png" alt="Bajos eléctricos">
+            <h2> Bajos Eléctricos</h2>
+            <a href="/views/bajos.html">Ver más</a>
+        </div>
+
+        <div class="metodos-pago">
+            <h3>Métodos de Pago Aceptados</h3>
+            <img src="/pagos.png" alt="Métodos de Pago Aceptados">
+        </div>
+    </div>
+
+    <form class="form">
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Correo electrónico</label>
+            <input class="u-full-width" type="email" placeholder="tuemail@gmail.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">¿En qué podemos ayudarte?</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Dudas</option>
+              <option value="Option 2">Precios</option>
+              <option value="Option 3">Devoluciones</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Mensaje</label>
+        <textarea class="u-full-width" placeholder="Buenas tardes, ..." id="exampleMessage"></textarea>
+        <label class="example-send-yourself-copy">
+        </label>
+        <input class="a" type="submit" value="Submit">
+      </form>
+
+</body>
+</html>
