@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'FuenteTitulo'; 
-    src: url('/fuente.ttf') format('truetype'); 
+    src: url('/fuente.otf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
   }
