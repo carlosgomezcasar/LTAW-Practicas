@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda>
+   <producto>
+       <nombre>A</nombre>
+       <descrispcion>D</descrispcion>
+       <stock>3</stock>
+   </producto>
+   
+   <producto>
+        <nombre>B</nombre>
+       <stock>1</stock>
+   </producto>
+</tienda>
